@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Sinus i cosinus</title>
+    <link rel="stylesheet" href="taulafor.css">
+</head>
+<body>
+
+    <div class="contenidor">
+        <div class="columna">
+            <h3>SIN</h3>
+            <div id="sinus"></div>
+        </div>
+
+        <div class="columna">
+            <h3>COS</h3>
+            <div id="cosinus"></div>
+        </div>
+    </div>
+
+    <script>
+        let sinus = document.getElementById("sinus");
+        let cosinus = document.getElementById("cosinus");
+
+        for (let i = 0; i <= 18; i++) {
+            let x = i / 100;
+
+            sinus.innerHTML +=
+                `<p>SIN(${x}): ${Math.sin(x)}</p>`;
+
+            cosinus.innerHTML +=
+                `<p>COS(${x}): ${Math.cos(x)}</p>`;
+        }
+    </script>
+
+</body>
+</html>

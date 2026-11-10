@@ -1,0 +1,23 @@
+ body {
+            background-color: black;
+        }
+        h1 {
+            color: red;
+            border: 1px solid red;
+            box-shadow: 10px 10px 5px red;
+
+        }
+        h5 {
+            color: green;
+            border: 1px solid green;
+            box-shadow: 10px 10px 5px green;
+        }
+        h3 {color: green;
+            border: 1px solid green;
+            box-shadow: 10px 10px 5px green;
+        }
+        p {
+            color: green;
+            margin-left: 1em;
+            margin-right: 1em;
+        }

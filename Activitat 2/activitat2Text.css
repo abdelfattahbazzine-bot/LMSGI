@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(210, 210, 210);
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+p {
+    padding: 0.5em;
+}
+
+.blau {
+    color: blue;
+    font-weight: bold;
+}
+
+.formula {
+    background-color: black;
+    color: white;
+}
+
+.vermell {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.groc {
+    background-color: yellow;
+}

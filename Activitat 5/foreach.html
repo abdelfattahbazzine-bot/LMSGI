@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Països i capitals</title>
+</head>
+<body>
+
+<?php
+$EU = array(
+    "Italy" => "Rome",
+    "Luxembourg" => "Luxembourg",
+    "Belgium" => "Brussels",
+    "Denmark" => "Copenhagen",
+    "Finland" => "Helsinki",
+    "France" => "Paris",
+    "Slovakia" => "Bratislava",
+    "Slovenia" => "Ljubljana",
+    "Germany" => "Berlin",
+    "Greece" => "Athens",
+    "Ireland" => "Dublin",
+    "Netherlands" => "Amsterdam"
+);
+?>
+
+<table border="1">
+    <tr>
+        <th>País</th>
+        <th>Capital</th>
+    </tr>
+
+    <?php foreach ($EU as $pais => $capital) { ?>
+        <tr>
+            <td><?php echo $pais; ?></td>
+            <td><?php echo $capital; ?></td>
+        </tr>
+    <?php } ?>
+
+</table>
+
+</body>
+</html>
