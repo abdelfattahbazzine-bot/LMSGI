@@ -7,7 +7,7 @@
 - [Activitat 1 de text](http://127.0.0.1:5500/Activitat%202/Activitat2.html)
 - [Curiositats de Mart](http://127.0.0.1:5500/Activitat%201%20de%20text/Activitat2.html)
 - [Activitat 1 de text CSS](http://127.0.0.1:5500/Activitat%202/activitat2Text.css)
-- [Curiositats de Mart CSS]( [Curiositats de Mart](http://127.0.0.1:5500/Activitat%201%20de%20text/Activitat2.html))
+- [Curiositats de Mart CSS](http://127.0.0.1:5500/Activitat%201%20de%20text/Activitat2.html))
 
 ## Activitat 3 Enllaços
 - [Nombre del proyecto](http://127.0.0.1:5500/Activitat%202/activitat2Text.css)
